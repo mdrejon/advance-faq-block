@@ -42,5 +42,8 @@
 //  Init the Block.
 function create_block_advance_faq_block_block_init() {
 	register_block_type( __DIR__ . '/build' );
+
+	// Load the translation files.
+	load_plugin_textdomain( 'advance-faq-block', false, basename( __DIR__ ) . '/languages' );
 }
 add_action( 'init', 'create_block_advance_faq_block_block_init' );
