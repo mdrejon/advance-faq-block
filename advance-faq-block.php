@@ -47,3 +47,24 @@ function create_block_advance_faq_block_block_init() {
 	load_plugin_textdomain( 'advance-faq-block', false, basename( __DIR__ ) . '/languages' );
 }
 add_action( 'init', 'create_block_advance_faq_block_block_init' );
+
+
+/**
+ * Initialize the plugin tracker
+ *
+ * @return void
+ */
+function appsero_init_tracker_advance_faq_block() {
+
+    if ( ! class_exists( 'Appsero\Client' ) ) {
+      require_once __DIR__ . '/appsero/src/Client.php';
+    }
+
+    $client = new Appsero\Client( '5f08a1ed-dcb9-44a5-817f-31b72ce130a8', 'Advance Faq Block', __FILE__ );
+
+    // Active insights
+    $client->insights()->init();
+
+}
+
+appsero_init_tracker_advance_faq_block();
