@@ -50,7 +50,7 @@ add_action( 'init', 'create_block_advance_faq_block_block_init' );
 
 
 /**
- * Initialize the plugin tracker
+ * Appsero Initialize the plugin tracker
  *
  * @return void
  */
