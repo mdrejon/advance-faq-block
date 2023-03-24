@@ -4,7 +4,7 @@
  * Description:       The Advance FAQ Block is a WordPress plugin that allows you to easily create and manage Frequently Asked Questions (FAQs) on your website using the Gutenberg block editor. With this plugin, you can add a customizable FAQ section to any page or post on your site.
  * Requires at least: 6.1
  * Requires PHP:      7.0
- * Version:           1.0.0
+ * Version:           1.0.1
  * Author:            Sydur Rahman
  * Author URI: 		  https://sydurrahman.com/
  * License:           GPL-2.0-or-later

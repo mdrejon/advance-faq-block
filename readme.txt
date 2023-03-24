@@ -4,7 +4,7 @@ Tags: FAQ block, Gutenberg block, Gutenberg FAQ block, Frequently Asked Question
 Requires at least: 6.1
 Tested up to: 6.1
 Requires PHP: 7.0
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPL-2.0+
 License URI: http://www.gnu.org/licenses/gpl-2.0.txt
 
@@ -19,6 +19,9 @@ Overall, the Advance FAQ Block plugin is a great tool for anyone looking to add 
 2. Screenshot_1.png
 
 == Changelog ==
+
+= 1.0.1 =
+* Intrigate Appsero
 
 = 1.0.0 =
 * Release
