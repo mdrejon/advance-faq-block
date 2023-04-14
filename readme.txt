@@ -2,9 +2,9 @@
 Contributors: mdrejon
 Tags: FAQ block, Gutenberg block, Gutenberg FAQ block, Frequently Asked Questions, FAQs, FAQ section
 Requires at least: 6.1
-Tested up to: 6.1
+Tested up to: 6.2
 Requires PHP: 7.0
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPL-2.0+
 License URI: http://www.gnu.org/licenses/gpl-2.0.txt
 
@@ -15,16 +15,19 @@ The plugin provides a Gutenberg block for the FAQ section, which you can drag an
 Overall, the Advance FAQ Block plugin is a great tool for anyone looking to add an FAQ section to their WordPress site. It's easy to use, customizable, and provides a professional look and feel that can help to build trust with your visitors.
 
 == Screenshots ==
-
-2. Screenshot_1.png
+1. FAQ Block
 
 == Changelog ==
 
+= 1.0.2 =
+- Tested WP 6.2 Compatibility
+- Updated: Appsero update
+
 = 1.0.1 =
-* Intrigate Appsero
+- Intrigate Appsero
 
 = 1.0.0 =
-* Release
+- Release
 
 
 ## Privacy Policy
